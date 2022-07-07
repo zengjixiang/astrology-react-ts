@@ -23,7 +23,7 @@ import Signup from '../SignupPage/Signup'
 import Constellation from '../ConstellationPage/Constellation';
 import House from '../HousePage/House';
 import Aspect from '../AspectPage/Aspect';
-import { url } from 'inspector';
+// import { url } from 'inspector';
 
 
 
