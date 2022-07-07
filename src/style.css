@@ -1,4 +1,7 @@
 h1, p {
   font-family: 'Roboto',Lato, serif;
   text-align: center;
+	align-items: center;
+  justify-content: center;
+	display: flex;
 }

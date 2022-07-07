@@ -1,5 +1,8 @@
 import * as React from 'react';
 import '../style.css';
+
+import '../App.css'
+
 import Background from '../images/hand-painted-watercolor-background-with-sky-clouds-shape.jpg';
 
 // import { NavLink } from 'reactstrap';
