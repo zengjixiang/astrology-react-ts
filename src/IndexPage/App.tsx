@@ -21,25 +21,35 @@ import {
   Breadcrumb,
   BreadcrumbItem,
 } from 'reactstrap';
+
 import Login from '../LoginPage/Login';
 import Signup from '../SignupPage/Signup'
 import Constellation from '../ConstellationPage/Constellation';
 import House from '../HousePage/House';
 import Aspect from '../AspectPage/Aspect';
-// import { url } from 'inspector';
-
 
 
 export default function App() {
+	// 導覽
   const navigate = useNavigate();
 
-  const background = {
+ //  const background = {
+ //    backgroundImage: `url(${Background})`,
+ //    height: "100%",
+ //    width: "100%",
+ //    backgroundPosition: "center",
+ //    backgroundRepeat: "no-repeat",
+ //    backgroundSize: "cover",
+	// };
+
+	// 背景圖片
+	const background = {
     backgroundImage: `url(${Background})`,
-    height: "100%",
-    width: "100%",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
+    height:"100vh",
+    width:"100vw",
 };
   
     const loginPage = () => {
@@ -102,7 +112,8 @@ export default function App() {
   // }
 
   return (
-    <Container style={{ backgroundImage:`url(${Background})` }}>
+		// 容器＋背景圖片
+    <Container style = { background }>
 
       <h1 className="row justify-content-center">Astrology 占星網</h1>
       <p className="row justify-content-center">
