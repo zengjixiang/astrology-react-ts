@@ -43,14 +43,13 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### reactstrap
-https://reactstrap.github.io/
+[Create React App and TypeScript: A Quick How-To](
+https://builtin.com/software-engineering-perspectives/create-react-app-typescript)
 
-### reactrouter
-https://reactrouter.com/docs/en/v6
+### [reactstrap](https://reactstrap.github.io/)
 
-### bootstrap 5
-https://bootstrap5.hexschool.com/docs/5.1/getting-started/introduction/
+### [reactrouter](https://reactrouter.com/docs/en/v6)
 
-### React Router 6 (React路由) 最详细教程
-https://kalacloud.com/blog/react-router-tutorial/
+### [bootstrap 5](https://bootstrap5.hexschool.com/docs/5.1/getting-started/introduction/)
+
+### [React Router 6 (React路由) 最详细教程](https://kalacloud.com/blog/react-router-tutorial/)

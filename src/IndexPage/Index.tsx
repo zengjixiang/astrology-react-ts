@@ -1,7 +1,7 @@
 import * as React from 'react';
 import '../style.css';
 
-import '../App.css'
+import '../index.css';
 
 import Background from '../images/hand-painted-watercolor-background-with-sky-clouds-shape.jpg';
 
@@ -30,7 +30,7 @@ import Aspect from '../AspectPage/Aspect';
 
 
 export default function App() {
-	// 導覽
+	{/* 導覽 */}
   const navigate = useNavigate();
 
  //  const background = {
@@ -42,7 +42,7 @@ export default function App() {
  //    backgroundSize: "cover",
 	// };
 
-	// 背景圖片
+	{/* 背景圖片 */}
 	const background = {
     backgroundImage: `url(${Background})`,
     backgroundPosition: "center",
@@ -120,8 +120,7 @@ export default function App() {
         Wellcome to Astrology Website :)
       </p>
 
-
-
+			{/* 導覽 */}
       <NavLink to="/App">首頁</NavLink>｜<NavLink to="/Signup">註冊</NavLink>｜
       <NavLink to="/Login">登入</NavLink>
       <p></p>
@@ -137,6 +136,7 @@ export default function App() {
             {/* <Route path='/About' element={<About />} />
             <Route path='/videos' element={<Results />} /> */}
       </Routes>
+			
       {/* 麵包屑 */}
       <Breadcrumb>
         <BreadcrumbItem>
