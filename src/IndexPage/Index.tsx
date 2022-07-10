@@ -24,7 +24,7 @@ import {
 
 import Login from '../LoginPage/Login';
 import Signup from '../SignupPage/Signup'
-import Constellation from '../ConstellationPage/Constellation';
+import Horoscope from '../HoroscopePage/Horoscope';
 import House from '../HousePage/House';
 import Aspect from '../AspectPage/Aspect';
 
@@ -62,9 +62,9 @@ export default function App() {
       navigate("../Signup", { replace: true });
     }
 
-    const constellationPage = () => {
-      // navigate.push("/Constellation")
-      navigate("../Constellation", { replace: true });
+    const horoscopePage = () => {
+      // navigate.push("/Horoscope")
+      navigate("../Horoscope", { replace: true });
     }
 
     const housePage = () => {
@@ -124,12 +124,12 @@ export default function App() {
       <NavLink to="/App">首頁</NavLink>｜<NavLink to="/Signup">註冊</NavLink>｜
       <NavLink to="/Login">登入</NavLink>
       <p></p>
-      <NavLink to="/Constellation">星座資訊</NavLink>｜<NavLink to="/House">宮位資訊</NavLink>｜<NavLink to="/Aspect">相位資訊</NavLink>
+      <NavLink to="/Horoscope">星座資訊</NavLink>｜<NavLink to="/House">宮位資訊</NavLink>｜<NavLink to="/Aspect">相位資訊</NavLink>
       <Routes>
         {/* <Route path="/App" element={<App />} /> */}
         <Route path="/Login" element={<Login />} />
         <Route path='/Signup' element={<Signup />} />
-        <Route path='/Constellation' element={<Constellation />} />
+        <Route path='/Horoscope' element={<Horoscope />} />
         <Route path='/House' element={<House />} />
         <Route path='/Aspect' element={<Aspect />} />
         
