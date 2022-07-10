@@ -1,6 +1,6 @@
 import * as React from 'react';
-import '../style.css';
 
+import '../style.css';
 import '../index.css';
 
 import Background from '../images/hand-painted-watercolor-background-with-sky-clouds-shape.jpg';
@@ -24,7 +24,7 @@ import {
 
 import Login from '../LoginPage/Login';
 import Signup from '../SignupPage/Signup'
-import Horoscope from '../HoroscopePage/Horoscope';
+import ZodiacSigns from '../ZodiacSignsPage/ZodiacSigns';
 import House from '../HousePage/House';
 import Aspect from '../AspectPage/Aspect';
 
@@ -32,15 +32,6 @@ import Aspect from '../AspectPage/Aspect';
 export default function App() {
 	{/* 導覽 */}
   const navigate = useNavigate();
-
- //  const background = {
- //    backgroundImage: `url(${Background})`,
- //    height: "100%",
- //    width: "100%",
- //    backgroundPosition: "center",
- //    backgroundRepeat: "no-repeat",
- //    backgroundSize: "cover",
-	// };
 
 	{/* 背景圖片 */}
 	const background = {
@@ -62,9 +53,9 @@ export default function App() {
       navigate("../Signup", { replace: true });
     }
 
-    const horoscopePage = () => {
-      // navigate.push("/Horoscope")
-      navigate("../Horoscope", { replace: true });
+    const zodiacSignsePage = () => {
+      // navigate.push("/ZodiacSigns")
+      navigate("../ZodiacSigns", { replace: true });
     }
 
     const housePage = () => {
@@ -124,12 +115,12 @@ export default function App() {
       <NavLink to="/App">首頁</NavLink>｜<NavLink to="/Signup">註冊</NavLink>｜
       <NavLink to="/Login">登入</NavLink>
       <p></p>
-      <NavLink to="/Horoscope">星座資訊</NavLink>｜<NavLink to="/House">宮位資訊</NavLink>｜<NavLink to="/Aspect">相位資訊</NavLink>
+      <NavLink to="/ZodiacSigns">星座資訊</NavLink>｜<NavLink to="/House">宮位資訊</NavLink>｜<NavLink to="/Aspect">相位資訊</NavLink>
       <Routes>
         {/* <Route path="/App" element={<App />} /> */}
         <Route path="/Login" element={<Login />} />
         <Route path='/Signup' element={<Signup />} />
-        <Route path='/Horoscope' element={<Horoscope />} />
+        <Route path='/ZodiacSigns' element={<ZodiacSigns />} />
         <Route path='/House' element={<House />} />
         <Route path='/Aspect' element={<Aspect />} />
         

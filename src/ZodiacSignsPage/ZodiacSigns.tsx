@@ -11,7 +11,7 @@ import {
 } from 'reactstrap';
 import '../style.css';
 // 星座資訊
-export default function Horoscope() {
+export default function ZodiacSigns() {
   return (
     <div>
       <h3>星座資訊</h3>
