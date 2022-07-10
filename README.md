@@ -37,7 +37,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## 參考資料
+## [參考資料]
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
@@ -53,3 +53,12 @@ https://builtin.com/software-engineering-perspectives/create-react-app-typescrip
 ### [bootstrap 5](https://bootstrap5.hexschool.com/docs/5.1/getting-started/introduction/)
 
 ### [React Router 6 (React路由) 最详细教程](https://kalacloud.com/blog/react-router-tutorial/)
+
+### [Building a login screen with React and Bootstrap](https://supertokens.com/blog/building-a-login-screen-with-react-and-bootstrap)
+
+### [How To Add Login Authentication to React Applications](https://www.digitalocean.com/community/tutorials/how-to-add-login-authentication-to-react-applications)
+
+### [Introduction to localStorage and sessionStorage](https://www.digitalocean.com/community/tutorials/js-introduction-localstorage-sessionstorage)
+
+### [React Facebook Login Examples](https://codesandbox.io/examples/package/react-facebook-login)
+

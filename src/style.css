@@ -5,3 +5,15 @@ h1, p {
   justify-content: center;
 	display: flex;
 }
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
