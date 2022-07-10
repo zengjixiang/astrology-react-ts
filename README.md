@@ -62,3 +62,5 @@ https://builtin.com/software-engineering-perspectives/create-react-app-typescrip
 
 ### [React Facebook Login Examples](https://codesandbox.io/examples/package/react-facebook-login)
 
+### [Create Simple Login form with React JS code](https://contactmentor.com/login-form-react-js-code/)
+
